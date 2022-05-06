@@ -27,7 +27,7 @@ This repository contains a docker build environment that can be used to build th
     cd deepstream_python_apps/bindings
     mkdir build
     cd build
-    cmake . -DDS_VERSION=6.0 -DPYTHON_MAJOR_VERSION=3 -DPYTHON_MINOR_VERSION=8
+    cmake .. -DDS_VERSION=6.0 -DPYTHON_MAJOR_VERSION=3 -DPYTHON_MINOR_VERSION=8
     make -j$(nproc)
     exit
     ```
